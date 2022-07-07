@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{249cd697-d22e-4da5-89c0-feacba70a0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{3053d40a-14c4-4cbe-991a-4a0e6305ffc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{62838064-bb81-42fc-bb4d-64ee5aeed990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI">
+      <UniqueIdentifier>{193d2c52-b5f4-406a-906c-b8f6560c1a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GameObject">
+      <UniqueIdentifier>{850637ac-8c79-4ed3-a76a-3931e0ca2100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{2e8e0c2d-7e25-4275-a9a2-a3cb04448e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{24076b4f-1ac1-40d8-aaa0-ab20f012441c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{36929eda-c29c-40e0-a0ac-10eadff5999c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Resource">
+      <UniqueIdentifier>{029eb342-55ea-4791-bd01-6441ab003521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{67d53b1b-d2a5-460c-9a66-16ca6002d50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Debug">
+      <UniqueIdentifier>{f5023322-517c-4585-8a06-5996a0d28662}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Scene\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilMath.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilLog.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Loger.h">
+      <Filter>Util\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryTracer.h">
+      <Filter>Util\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="CallStackTracer.h">
+      <Filter>Util\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryAllocator.h">
+      <Filter>Util\Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Scene\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Loger.cpp">
+      <Filter>Util\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryTracer.cpp">
+      <Filter>Util\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="CallStackTracer.cpp">
+      <Filter>Util\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryAllocator.cpp">
+      <Filter>Util\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameFramework.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GameFramework.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
